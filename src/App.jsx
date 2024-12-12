@@ -1,21 +1,11 @@
-import './App.css'
+import "./App.css";
+import Body from "./components/Body";
+import ProductTile from "./components/ProductTile";
+
+import products from "./components/product";
 
 function App() {
-
-
-  return (
-    <>
-      <div>
-      
-      </div>
-      <h1>Online Shop</h1>
-      <div className="card">
-        
-       
-      </div>
-      
-    </>
-  )
+  return <ProductTile products={products} />;
 }
 
-export default App
+export default App;
