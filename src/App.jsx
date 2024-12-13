@@ -1,11 +1,16 @@
 import "./App.css";
-import Body from "./components/Body";
 import ProductTile from "./components/ProductTile";
-
+import Navbar from "./components/Navbar";
 import products from "./components/product";
 
 function App() {
-  return <ProductTile products={products} />;
+  return (
+    <>
+    <Navbar />
+    <ProductTile products={products} />
+  </>
+  );
+ 
 }
 
 export default App;

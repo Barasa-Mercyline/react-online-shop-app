@@ -17,6 +17,7 @@ function ProductTile({ products }) {
               <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>{product.price}</Card.Text>
+                <Card.Text>{product.category}</Card.Text>
                 <Button variant="primary">
                   <IoMdCart /> Add To Cart
                 </Button>
